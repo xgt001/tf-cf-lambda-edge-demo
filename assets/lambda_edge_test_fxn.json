@@ -1,0 +1,46 @@
+{
+  "Records": [
+    {
+      "cf": {
+        "config": {
+          "distributionDomainName": "d3psfsdgncm2n0.cloudfront.net",
+          "distributionId": "E3MAXODE7WVP93",
+          "eventType": "viewer-request",
+          "requestId": "4TyzHTaYWb1GX1qTfsHhEqV6HUDd_BzoBZnwfnvQc_1oF26ClkoUSEQ=="
+        },
+        "request": {
+          "clientIp": "2a02:8108:4740:20d4:e10a:392e:ffa2:f880",
+          "headers": {
+            "host": [
+              {
+                "key": "Host",
+                "value": "secure-cf-demo.ganeshheg.de"
+              }
+            ],
+            "user-agent": [
+              {
+                "key": "User-Agent",
+                "value": "curl/7.66.0"
+              }
+            ],
+            "authorization": [
+              {
+                "key": "Authorization",
+                "value": "Basic dXNlcjpwYXNz"
+              }
+            ],
+            "accept": [
+              {
+                "key": "accept",
+                "value": "*/*"
+              }
+            ]
+          },
+          "method": "GET",
+          "querystring": "",
+          "uri": "/"
+        }
+      }
+    }
+  ]
+}

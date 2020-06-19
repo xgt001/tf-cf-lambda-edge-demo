@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - simple-single-page-application-demo</title>
+  <link rel='stylesheet' href='https://codepen.io/hejx/pen/qbKzMR.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>spa demo</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+    <div class="views">
+      <!-- View -->
+      <div class="view view-main">
+        <!-- Pages -->
+        <div class="pages">
+          <!-- Home page -->
+          <div class="page index" data-page="index">
+            <div class="page-content">
+              <p>Home page</p>
+              <a class="btn" id="go-about" href="#about?id=1&name=hejx">click and go 'about' page</a>
+              <a class="btn" id="go-services" href="#services?name=jb">click and go 'services' page</a>
+            </div>
+          </div>
+ 
+          <!-- About page -->
+          <div class="page cached about" data-page="about">
+            <div class="page-content">
+              <p>About page</p>
+              <a class="btn" id="go-back" href="#">go back</a>
+            </div>
+          </div>
+ 
+          <!-- Services page -->
+          <div class="page cached services" data-page="services">
+            <div class="page-content">
+              <p>Services page</p>
+              <a class="btn" id="go-about2" href="#about?id=123">click and go 'about' page</a>
+              <a class="btn" id="go-back2" href="#">go back</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script src='https://codepen.io/hejx/pen/RrJzBj.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
